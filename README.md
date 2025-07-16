@@ -52,7 +52,7 @@ If you are the owner of any content and would like it removed or credited, pleas
 
 ## 🧠 Training Details
 
-Training was done in two phases:
+Training was done in two phases on the first model:
 
 ```text
 Phase 1: 33 epochs from scratch using yolov8l.pt  
