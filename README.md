@@ -68,8 +68,8 @@ Checkpoint saving is handled automatically, with cleanup for intermediate files.
 
 The project is organized into three Jupyter notebooks:
 
-- `01_train_vehicles.ipynb` – Initial training
-- `02_train_license_plates.ipynb` – Resume from checkpoint
+- `01_train_vehicles.ipynb` – Initial training for vehicles & Resume from checkpoint 
+- `02_train_license_plates.ipynb` Initial training for plate Licenses 
 - `03_inference.ipynb` – Real-time inference and DeepSORT tracking
 
 ---
