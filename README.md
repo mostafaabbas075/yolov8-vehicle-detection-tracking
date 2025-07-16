@@ -95,9 +95,8 @@ pip install ultralytics opencv-python torch deep_sort_realtime albumentations py
 
 ---
 
-## 📸 Example Output
-
-(Add sample frame/video here)
+## 📸 Demo Video
+*https://www.linkedin.com/posts/activity-7326374763663171585-gfM_?utm_source=social_share_send&utm_medium=member_desktop_web&rcm=ACoAAExppuYBLUqjnF-K3rXxALthfcmZWvcr_S8*
 
 ---
 
