@@ -1,4 +1,3 @@
-```markdown
 # 🚗 YOLOv8 Vehicle Detection & Tracking
 
 A real-time vehicle detection and tracking system built using **YOLOv8** and **DeepSORT**, trained on a custom dataset to detect multiple vehicle types including **car**, **truck**, **bus**, and **motorcycle**.
