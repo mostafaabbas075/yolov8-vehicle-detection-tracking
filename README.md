@@ -79,8 +79,15 @@ The project is organized into three Jupyter notebooks:
 ```python
 from ultralytics import YOLO
 
-model = YOLO("runs/yolov8l_vehicles/weights/best.pt")
-results = model("video.mp4", save=True, conf=0.5)
+# Load both models
+vehicle_model = YOLO("runs/yolov8l_vehicles/weights/best.pt")
+plate_model = YOLO("runs/yolov8l_plates/weights/best.pt")
+
+# Run both models on the same video
+# This is just a simplified example – actual implementation combines results in one output video
+vehicle_results = vehicle_model("video.mp4", conf=0.5)
+plate_results = plate_model("video.mp4", conf=0.5)
+
 ```
 
 To run with DeepSORT tracking, use the code inside `03_inference_and_tracking.ipynb`.
@@ -113,5 +120,5 @@ pip install ultralytics opencv-python torch deep_sort_realtime albumentations py
 **Mostafa Abbas**  
 AI Student @ Arab Open University  
 Gmail: mostafa.a.s075@gmail.com
-LinkedIn: https://www.linkedin.com/in/mostafa-abbas-91a4052b9/
+LinkedIn: https://www.linkedin.com/in/mustafa-abbas-91a4052b9/
 ```
